@@ -1,0 +1,219 @@
+body{
+    background: url('../img/body_image.jpg') repeat-x;
+}
+header{
+    width: 700px;
+    height: 153px;
+    border: 1px #fbfeff solid;
+    margin: 0 auto;
+}
+header .nav{
+    width: 700px;
+    border-top: 1px #fcfffd solid;
+}
+header .nav li{
+    width: 100px;
+    float: left;
+}
+header .nav a{
+    display: block;
+    height: 33px;
+    background: url('../img/nav.jpg') no-repeat;
+    font-size: 11px;
+    color: #630002;
+    text-align: center;
+    line-height: 33px;
+}
+header  .nav a:hover{
+    background: #f9bfbf;
+    color: #feffff;
+}
+section{
+    width: 700px;
+    padding-top: 7px;
+    margin: 0 auto;
+}
+.left{
+    width: 180px;
+    height: 819px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    float: left;
+}
+.left img:nth-of-type(1){
+    margin: 11px 0 0 12px;
+}
+.left .input{
+    width: 100%;
+    height: 52px;
+    margin: 12px 28px 0 25px;
+}
+.left .input p{
+    display: block;
+    font-size: 11px;
+    float: left;
+}
+.left .input input[type="text"],input[type="password"]{
+    width: 90px;
+    margin: 0 29px 2px 0;
+    border: none;
+    border-bottom: 1px #000000 solid;
+    float: left;
+}
+/* 获得焦点 */
+.left .input input[type="submit"]:focus{
+    border: none;
+}
+.left .input input[type="submit"] {
+    width: 34px;
+    height: 17px;
+    border: 1px #000 solid;
+    background-color: #ffeff0;
+    margin-top: 5px;
+    /* 鼠标点击按钮时表示可以点击的手型 */
+    cursor: pointer;
+}
+.left .input input[value]{
+    display: inline-block;
+    font-size: 12px;
+    text-align: center;
+    line-height: 14px;
+}
+.left .input a{
+    font-size: 11px;
+}
+.left .input a:hover{
+    color: blue;
+}
+.left img:nth-of-type(2){
+    margin: 22px 0 9px 12px;
+}
+.left .title{
+    width: 145px;
+    height: 20px;
+    background-color: #ffd1d1;
+    margin: 0 auto;
+}
+.left .title h3{
+    font-size: 11px;
+    margin: 5px 0 0 5px;
+}
+.left .nav1{
+    width: 135px;
+    margin: 8px 0 15px 0;
+}
+.left .nav1 a{
+    display: block;
+    height: 11px;
+    font-size: 11px;
+}
+.left .nav1 a:hover{
+    color: #ffd1d1;
+}
+.nav1 img{
+    width: 5px;
+    height: 5px;
+}
+hr{
+    border: 1px #999999 dashed;
+    margin: 6px 0 3px 0;
+}
+.left div:nth-of-type(3){
+    margin-top: 192px;
+}
+.left div:nth-of-type(4){
+    margin-top: 192px;
+}
+.right{
+    width: 518px;
+    float: right;
+}
+.right>div{
+    border-radius: 8px 8px 0 0;
+}
+/* .right>div img:nth-of-type(1){
+    padding-left: 6px;
+} */
+.right .first{
+    width: 100%;
+    height: 33px;
+    background-color: #ffffff; 
+    margin-bottom: 2px;
+    position: relative; 
+}
+.right .first img:nth-of-type(1), .third img:nth-of-type(1), .fourth img:nth-of-type(1), .fifth img:nth-of-type(1){
+    padding-left: 6px;
+}
+.right .hr{
+    position: absolute;
+    right: 9px;
+    top: 12px;
+}
+.right .second img{
+    border: 1px #711717 solid;
+}
+.right .second img:nth-of-type(1),img:nth-of-type(2){
+    margin-right: 1px;
+}
+.right .third{
+    width: 100%;
+    height: 341px;
+    background-color: #ffffff;
+    margin: 5px 0 5px 0;
+    position: relative;
+}
+.right  .menu{
+    width: 481px;
+    height: 277px;
+    padding-top: 17px;
+    margin: 0 auto;
+}
+.right  .menu li{
+    width: 106px;
+    margin-right: 19px;
+    float: left;
+}
+.right  .menu li:nth-of-type(4n){
+    margin-right: 0;
+}
+.right  .menu img{
+    border: 1px #7d0004 solid;
+}
+.right  .menu h4{
+    font-weight: normal;
+    font-size: 11px;
+    color: #666666;
+    text-align: center;
+}
+.right .third .menu p{
+    font-size: 11px;
+    text-align: center;
+    margin-bottom: 7px;
+}
+.right .fourth{
+    width: 100%;
+    height: 185px;
+    background-color: #ffffff;
+    margin-bottom: 5px ;
+    position: relative;
+}
+.right .fifth{
+    width: 100%;
+    height: 136px;
+    background-color: #ffffff;
+    position: relative;
+}
+.right .fifth >div{
+    width: 500px;
+    margin-top: 16px;
+}
+.right .fifth>div a{
+    display: inline-block;
+    width: 162px;
+    font-size: 11px;
+    margin-left: 35px;
+    margin-bottom: 5px;
+}
+.right .fifth>div a:hover{
+    color: #7e0003;
+}
